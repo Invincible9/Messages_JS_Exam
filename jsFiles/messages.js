@@ -24,8 +24,8 @@ function startApp() {
     $('#linkUserHomeArchiveSent').click(showMenuArchiveSend);
 
     const kinveyBaseUrl = "https://baas.kinvey.com/";
-    const kinveyAppID = "kid_S1NIVtqme";
-    const kinveyAppSecret = "48c48af2abb04e09aa1846deff546ef9";
+    const kinveyAppID = "";
+    const kinveyAppSecret = "";
     const kinveyAppAuthHeaders = {
         'Authorization': "Basic " +
         btoa(kinveyAppID + ":" + kinveyAppSecret),
